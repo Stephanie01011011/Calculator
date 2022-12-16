@@ -1,0 +1,43 @@
+body{
+    display: table;
+    margin: auto;
+    margin-top: 50px;
+    
+}
+.calcBody{
+    width: 600px;
+    height: 650px;
+    background-color: black;
+    text-align: center;
+    
+}
+.calcScreen{
+    width: 500px;
+    height: 100px;
+    background-color: rgb(168, 165, 165);
+    display: inline-block;
+    margin-top: 50px;
+    position: relative;
+    
+    
+    
+}
+.buttonArea{
+    width: 500px;
+    height:400px;
+    background-color: rgb(72, 72, 76);
+    display: inline-block;
+    margin-top: 50px;
+   
+}
+button{
+    height: 80px;
+    width: 80px;
+    margin: 10px;
+}
+#numbersText{
+    position: absolute;
+    bottom: 0;
+    right: 10px;
+    
+}
