@@ -3,6 +3,7 @@ body{
     margin: auto;
     margin-top: 50px;
     
+    
 }
 .calcBody{
     width: 600px;
@@ -11,17 +12,7 @@ body{
     text-align: center;
     
 }
-.calcScreen{
-    width: 500px;
-    height: 100px;
-    background-color: rgb(168, 165, 165);
-    display: inline-block;
-    margin-top: 50px;
-    position: relative;
-    
-    
-    
-}
+
 .buttonArea{
     width: 500px;
     height:400px;
@@ -35,9 +26,33 @@ button{
     width: 80px;
     margin: 10px;
 }
-#numbersText{
-    position: absolute;
-    bottom: 0;
-    right: 10px;
+
+.previous{
+   
+    text-align: end;
+    padding-right: 30px;
+    font-size: 20px;
+}
+.current{
+   
     
+    text-align: end;
+    padding: 10px;
+    font-size: 30px;
+   
+    
+}
+
+.screen{
+    width: 500px;
+    height: 125px;
+    display: inline-block;
+    margin-top: 10px;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    
+    
+    background-color: grey;
+   
 }
